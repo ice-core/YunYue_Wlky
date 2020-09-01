@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="分类"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/button"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/search2x" />
+        </LinearLayout>
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DFDFDF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <ListView
+                android:id="@+id/lv_sc_lb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:choiceMode="singleChoice"
+                android:divider="@null"></ListView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#DFDFDF" />
+
+        <GridView
+            android:id="@+id/gv_fl_zuo"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="14dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="3"
+            android:numColumns="3"
+            android:visibility="gone"></GridView>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rec_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/ll_fenlei_tj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="14dp"
+                    android:gravity="center_vertical"
+                    android:text="推荐"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <com.example.administrator.yunyue.sc_gridview.MyGridView
+                    android:id="@+id/mgv_fenlei_tj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:numColumns="3"></com.example.administrator.yunyue.sc_gridview.MyGridView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_fenlei_rmtj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="14dp"
+                    android:gravity="center_vertical"
+                    android:text="热门排行"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <com.example.administrator.yunyue.sc_gridview.MyGridView
+                    android:id="@+id/mgv_fenlei_rmtj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:numColumns="3" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_fenlei_cnxh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginLeft="14dp"
+                    android:gravity="center_vertical"
+                    android:text="猜你喜欢"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <com.example.administrator.yunyue.sc_gridview.MyGridView
+                    android:id="@+id/mgv_fenlei_cnxh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:numColumns="3"></com.example.administrator.yunyue.sc_gridview.MyGridView>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

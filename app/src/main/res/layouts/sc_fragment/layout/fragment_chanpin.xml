@@ -1,0 +1,226 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_chanpin_gao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_chanpin_image"
+                android:layout_width="match_parent"
+                android:layout_height="345dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/cover1x" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="7dp"
+                android:gravity="center">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:layout_heightPercent="100%">
+
+                    <ImageView
+                        android:id="@+id/iv_chanpin_image1"
+                        android:layout_width="match_parent"
+                        android:layout_height="121dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/bg_cp1"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cover1x" />
+
+                    <ImageView
+                        android:id="@+id/iv_chanpin_image1back"
+                        android:layout_width="match_parent"
+                        android:layout_height="121dp"
+                        android:layout_gravity="center"
+                        android:background="#80000000" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/iv_chanpin_image2"
+                        android:layout_width="match_parent"
+                        android:layout_height="121dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cover1x" />
+
+                    <ImageView
+                        android:id="@+id/iv_chanpin_image2back"
+                        android:layout_width="match_parent"
+                        android:layout_height="121dp"
+                        android:layout_gravity="center" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/iv_chanpin_image3"
+                        android:layout_width="match_parent"
+                        android:layout_height="121dp"
+                        android:layout_gravity="center"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/cover1x" />
+
+                    <ImageView
+                        android:id="@+id/iv_chanpin_image3back"
+                        android:layout_width="match_parent"
+                        android:layout_height="121dp"
+                        android:layout_gravity="center" />
+                </FrameLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_chanpin_goods_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#172434"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_chanpin_goods_remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text=""
+                android:textColor="#999999"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_chanpin_shop_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="27dp"
+                android:text=""
+                android:textColor="@color/theme"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_chanpin_goods_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text=""
+                android:textColor="#999999"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_chanpin_jrgwc"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="22dp"
+            android:background="@drawable/bg_lq1"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="11dp"
+                android:src="@mipmap/gouw" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:text="加入购物车"
+                android:textColor="@color/white_c"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_chanpin_jrsc"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="6dp"
+            android:background="@drawable/bg_lq"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="加入收藏"
+                android:textColor="@color/white_c"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:layout_marginTop="31dp"
+            android:background="#eef1f6">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:text="其他产品"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <com.example.administrator.yunyue.sc_gridview.MyGridView
+            android:id="@+id/gv_chenpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:numColumns="2"></com.example.administrator.yunyue.sc_gridview.MyGridView>
+
+    </LinearLayout>
+
+</FrameLayout>

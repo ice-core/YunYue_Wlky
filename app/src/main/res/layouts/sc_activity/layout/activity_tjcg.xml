@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_c"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_heightPercent="6%"
+        app:layout_widthPercent="100%">
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_heightPercent="100%"
+            app:layout_marginLeftPercent="2%"
+            app:layout_widthPercent="8%">
+
+            <ImageView
+                android:id="@+id/iv_tjcg_back"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/header3x" />
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_alignLeft="@+id/bt_e_return"
+            android:layout_alignParentTop="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/blove"
+            app:layout_heightPercent="100%"
+            app:layout_marginLeftPercent="5.5%"
+            app:layout_textSizePercent="40%" />
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="100%">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentTop="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:gravity="center"
+                android:text="提交成功"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                app:layout_heightPercent="100%"
+                app:layout_widthPercent="100%" />
+
+
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+        <com.zhy.android.percent.support.PercentRelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="right"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="100%">
+
+            <Button
+                android:id="@+id/bt_xgmm_save"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@null"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/theme"
+                app:layout_heightPercent="100%"
+                app:layout_textSizePercent="35%"
+                app:layout_widthPercent="18%" />
+        </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#cbcbc6"
+        app:layout_heightPercent="0.1%"
+        app:layout_widthPercent="100%" />
+
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+
+        app:layout_widthPercent="100%">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/qs_3x" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:focusable="true"
+            android:gravity="center"
+            android:text="亲，支付定金才能通过审核哦"
+            android:textSize="12sp"
+            app:layout_widthPercent="100%" />
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="49dp"
+        android:gravity="center"
+
+        app:layout_marginTopPercent="12%"
+        app:layout_widthPercent="100%">
+
+        <Button
+            android:id="@+id/bt_tjcg_zf"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/bt_bg1"
+            android:text="支付定金"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            app:layout_heightPercent="80%"
+            app:layout_widthPercent="40%" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@drawable/bt_bg"
+            android:text="返回首页"
+            android:textColor="#ffffff"
+            android:textSize="14sp"
+            app:layout_heightPercent="80%"
+            app:layout_marginLeftPercent="5%"
+            app:layout_widthPercent="40%" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+</com.zhy.android.percent.support.PercentLinearLayout>
+

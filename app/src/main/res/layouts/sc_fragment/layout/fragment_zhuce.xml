@@ -1,0 +1,164 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="63dp"
+        android:background="@drawable/denglu_bg"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="18dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/yaoqingma" />
+
+        <EditText
+            android:id="@+id/et_zhuce_yqm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="19dp"
+            android:background="@null"
+            android:hint="@string/qsryqm"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/denglu_bg"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="21dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/shouji" />
+
+        <EditText
+            android:id="@+id/et_denglu_phone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="19dp"
+            android:background="@null"
+            android:hint="@string/qsrsjhm"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/denglu_bg"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/yanzhegnma" />
+
+        <EditText
+            android:id="@+id/et_zhuce_yzm"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="19dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/qsryzm"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/bt_zhuce_hqyzm"
+            android:layout_width="102dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/login"
+            android:singleLine="true"
+            android:text="@string/hqyzm"
+            android:textColor="@color/white_c"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/denglu_bg"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/mima" />
+
+        <EditText
+            android:id="@+id/et_zhuce_mima"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="19dp"
+            android:background="@null"
+            android:hint="@string/qsrdlmm"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="29dp"
+        android:background="@drawable/denglu_bg"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="22dp"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/mima" />
+
+        <EditText
+            android:id="@+id/et_zhuce_querenmima"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="19dp"
+            android:background="@null"
+            android:hint="@string/qzycqrmm"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_zhuce_zc"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/login"
+        android:text="@string/zhuce"
+        android:textColor="@color/white_c"
+        android:textSize="17sp" />
+
+</LinearLayout>

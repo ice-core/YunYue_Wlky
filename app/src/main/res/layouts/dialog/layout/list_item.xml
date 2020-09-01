@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_c"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="319dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text=""
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/iv_shdz_gb"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:padding="9dp"
+            android:src="@drawable/arrow_closed" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+        <LinearLayout
+            android:id="@+id/ll_ssq_sheng"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_ssq_sheng"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="请选择"
+                android:textColor="@color/theme"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_ssq_sheng_xhx"
+                android:layout_width="36dp"
+                android:layout_height="2dp"
+                android:background="@color/theme" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_ssq_shi"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_ssq_shi"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="请选择"
+                android:textColor="@color/theme"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_ssq_shi_xhx"
+                android:layout_width="36dp"
+                android:layout_height="2dp"
+                android:background="@color/theme" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_ssq_qu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tv_ssq_qu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:text="请选择"
+                android:textColor="@color/theme"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_ssq_qu_xhx"
+                android:layout_width="36dp"
+                android:layout_height="2dp"
+                android:background="@color/theme" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:gravity="center">
+
+        <ListView
+            android:id="@+id/lv_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+
+</LinearLayout>

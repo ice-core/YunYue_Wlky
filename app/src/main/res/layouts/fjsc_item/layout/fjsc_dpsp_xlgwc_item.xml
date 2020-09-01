@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E1E1E1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_fjsc_dpsp_xlgwc_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="8dp"
+                android:lines="1"
+                android:text="新疆阿克苏"
+                android:textColor="#333333"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/tv_fjsc_dpsp_xlgwc_spec_key_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:text="选择版本:全网通3G+32G 选择颜色:铂光色 套餐类型:套餐一"
+                android:textColor="#666666"
+                android:textSize="10sp" />
+        </LinearLayout>
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:text="￥"
+            android:textColor="#FC2449"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/tv_fjsc_dpsp_xlgwc_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:lines="1"
+            android:text="13.2"
+            android:textColor="#FC2449"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_fjsc_dpsp_xlgwc_jian"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@mipmap/icon_jianshao_3x" />
+
+        <TextView
+            android:id="@+id/tv_fjsc_dpsp_xlgwc_num"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:lines="1"
+            android:text="1"
+            android:textColor="#333333"
+            android:textSize="14sp" />
+
+        <ImageView
+            android:id="@+id/iv_fjsc_dpsp_xlgwc_jia"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginRight="15dp"
+            android:src="@mipmap/icon_add_3x" />
+    </LinearLayout>
+
+</LinearLayout>

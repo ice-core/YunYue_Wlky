@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_c"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_fjsc_spxq_xzgg_dialog_name"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center"
+                android:text="米锅巴"
+                android:textColor="@color/hei333333"
+                android:textSize="18sp" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+              <!--      <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginTop="5dp"
+                        android:background="#FFDFDFDF" />-->
+
+                    <TextView
+                        android:id="@+id/tv_spxq_xzgg_dialog_xgg1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.example.administrator.yunyue.sc_gridview.MyGridView
+                        android:id="@+id/mgv_spxq_xzgg_dialog_xgg1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="9dp"
+                        android:horizontalSpacing="8dp"
+                        android:listSelector="@android:color/transparent"
+                        android:numColumns="3" />
+
+                    <TextView
+                        android:id="@+id/tv_spxq_xzgg_dialog_xgg2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.example.administrator.yunyue.sc_gridview.MyGridView
+                        android:id="@+id/mgv_spxq_xzgg_dialog_xgg2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="9dp"
+                        android:horizontalSpacing="8dp"
+                        android:listSelector="@android:color/transparent"
+                        android:numColumns="3" />
+
+                    <TextView
+                        android:id="@+id/tv_spxq_xzgg_dialog_xgg3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16sp" />
+
+                    <com.example.administrator.yunyue.sc_gridview.MyGridView
+                        android:id="@+id/mgv_spxq_xzgg_dialog_xgg3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="9dp"
+                        android:horizontalSpacing="8dp"
+                        android:listSelector="@android:color/transparent"
+                        android:numColumns="3" />
+
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#ECECEC"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="￥"
+                android:textColor="#FC2449"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/tv_spxq_xzgg_dialog_shop_price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="0.00"
+                android:textColor="#FC2449"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/bt_spxq_xzgg_dialog_xgg_qr"
+                android:layout_width="100dp"
+                android:layout_height="32dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:background="@drawable/bj_ff4350b6_19"
+                android:gravity="center"
+                android:text="加入购物车"
+                android:textColor="@color/white_c"
+                android:textSize="12sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

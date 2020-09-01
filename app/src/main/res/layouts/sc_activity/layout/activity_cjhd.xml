@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:loonggg="http://schemas.android.com/apk/res-auto"
+    xmlns:wheelSurfView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iv_cjhd_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/header3x" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/cjhd"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cbcbc6" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/ll_cjhd"
+                android:layout_width="match_parent"
+                android:layout_height="2525px"
+                android:background="@mipmap/homebg"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="338dp"
+                    android:layout_height="126dp"
+                    android:layout_marginTop="28dp"
+                    android:src="@mipmap/title" />
+
+                <LinearLayout
+                    android:id="@+id/ll_cjhd_zp"
+                    android:layout_width="968px"
+                    android:layout_height="968px">
+
+                    <com.cretin.www.wheelsruflibrary.view.WheelSurfView
+                        android:id="@+id/wheelSurfView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="20dp"
+                        wheelSurfView:typenum="-1"></com.cretin.www.wheelsruflibrary.view.WheelSurfView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="25dp"
+                    android:gravity="center"
+                    android:text="@string/mcgyq"
+                    android:textColor="#FFAC99"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="31dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/ll_cjhd_yqzc"
+                        android:layout_width="134dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/bg_cj"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="19dp"
+                            android:layout_height="15dp"
+                            android:src="@mipmap/yaoqing" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/yqzc"
+                            android:textColor="@color/theme"
+                            android:textSize="15sp"
+                            app:layout_marginLeftPercent="5%" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_cjhd_wdjp"
+                        android:layout_width="134dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="54dp"
+                        android:background="@drawable/bg_cj"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="23dp"
+                            android:layout_height="23dp"
+                            android:src="@mipmap/jiangpin" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/wdjp"
+                            android:textColor="@color/theme"
+                            android:textSize="15sp"
+                            app:layout_marginLeftPercent="5%" />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="33dp"
+                    android:layout_marginTop="23dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="225dp"
+                        android:layout_height="33dp"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/dibu"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="41dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="11dp"
+                            android:src="@mipmap/zuobian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="活动规则"
+                            android:textColor="#FEE2D7"
+                            android:textSize="17sp" />
+
+                        <ImageView
+                            android:layout_width="41dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="11dp"
+                            android:src="@mipmap/youbian" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginRight="24dp"
+                    android:background="#FFDFCD"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="11dp"
+                        android:layout_marginRight="11dp"
+                        android:layout_marginTop="25dp"
+                        android:lineSpacingExtra="5dp"
+                        android:text="@string/gz"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

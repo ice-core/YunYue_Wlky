@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="85dp"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/iv_image_tu_item"
+        android:layout_width="99dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/add_pic" />
+
+    <ImageView
+        android:id="@+id/iv_image_tu_item_delete"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="right"
+        android:src="@mipmap/tu_delete"
+        android:visibility="gone" />
+
+</FrameLayout>

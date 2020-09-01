@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:id="@+id/ll_yanzheng_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:src="@drawable/back1x" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="验证"
+            android:textColor="#000000"
+            android:textSize="17.5sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#F4F4F4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="26dp"
+        android:text="你需要发送验证申请，等对方通过"
+        android:textColor="#CCCCCC"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/et_yanzheng_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="21dp"
+        android:background="@null"
+        android:hint="请输入您想说的话"
+        android:text=""
+        android:textColor="#666666"
+        android:textColorHint="#CCCCCC"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="#F4F4F4" />
+
+    <TextView
+        android:id="@+id/tv_yanzheng_fs"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginRight="52dp"
+        android:layout_marginTop="146dp"
+        android:background="@drawable/bj_theme_24"
+        android:gravity="center"
+        android:text="发送"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+</LinearLayout>

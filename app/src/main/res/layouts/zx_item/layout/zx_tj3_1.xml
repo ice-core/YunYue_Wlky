@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_zx_tj3_1_item"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_zx_tj3_1_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:lineSpacingExtra="1.32dp"
+            android:lineSpacingMultiplier="1.32"
+            android:lines="2"
+            android:text="2017-2018美剧播出季检阅：趋势、前瞻以及私人之选"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_zx_tj3_1_xq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:lineSpacingExtra="1.16dp"
+            android:lineSpacingMultiplier="1.16"
+            android:lines="2"
+            android:text="每年五月都是以ABC、CBC和NBC为首的广播电视网本播出季度告一段落的日子。电视工业…"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <com.example.administrator.yunyue.tu_view.NineGridTestLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/layout_nine_grid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:sapcing="4dp" />
+
+            <ImageView
+                android:id="@+id/iv_zx_tj3_1_img"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+           />
+
+            <ImageView
+                android:id="@+id/iv_zx_tj3_1_img1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+             />
+
+            <ImageView
+                android:id="@+id/iv_zx_tj3_1_img2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scaleType="centerCrop"
+            />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="9.4dp"
+                android:src="@drawable/home_icon_view_3x" />
+
+            <TextView
+                android:id="@+id/tv_zx_tj3_1_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="9dp"
+                android:text="514次浏览"
+                android:textColor="#999999"
+                android:textSize="11sp" />
+
+            <ImageView
+                android:layout_width="12dp"
+                android:layout_height="10.3dp"
+                android:layout_marginLeft="11dp"
+                android:src="@drawable/home_icon_comment_3x" />
+
+            <TextView
+                android:id="@+id/tv_zx_tj3_1_pinglun_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="10人讨论"
+                android:textColor="#999999"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#DFDFDF" />
+
+</LinearLayout>

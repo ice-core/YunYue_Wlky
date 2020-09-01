@@ -1,0 +1,188 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="28dp"
+        android:background="@drawable/bj_bai6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_fpxzshsm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="发票须知"
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:id="@+id/ll_fpxzshsm_fpxz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginTop="13dp"
+                android:lineSpacingExtra="1.5dp"
+                android:text="1.发票金额不含商城优惠券、节日红包、银行支付有礼等优惠扣减金额。"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginTop="8dp"
+                android:text="2.电子普通发票"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginTop="3dp"
+                android:lineSpacingExtra="1.5dp"
+                android:text="（1）电子普通发票是税局认可的有效收付款凭证，其法律效力、基本用途及使用规定同纸质发票，如需纸质发票可自行下载打印；"
+                android:textColor="#666666"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginTop="1dp"
+                android:lineSpacingExtra="1.5dp"
+                android:text="（2）京东自营全面启用电子普通发票，用户可点击“我的订单-查看发票”查询和下载。"
+                android:textColor="#666666"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="19dp"
+                android:layout_marginTop="12dp"
+                android:lineSpacingExtra="1.5dp"
+                android:text="3.第三方卖家销售的商品/服务的发票由卖家自行出具、提供，发票类型和内容由卖家根据实际商品、服务情况决定。"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:id="@+id/sv_fpxzshsm_shsm"
+            android:layout_width="match_parent"
+            android:layout_height="311dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginTop="13dp"
+                    android:lineSpacingExtra="1.5dp"
+                    android:text="1.什么是纳税人识别号/统一社会信用代码？"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginTop="5dp"
+                    android:lineSpacingExtra="1.5dp"
+                    android:text="纳税人识别号，通常简称为“税号”，就是税务登记证上的号，每个企业的识别号都是唯一的，相当于税务局颁发给企业的“身份证”号。"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="19dp"
+
+                    android:lineSpacingExtra="1.5dp"
+                    android:text="统一社会信用代码，是一组长度为18位的用于法人和其他组织身份识别的代码。统一社会信用代码由国家标准委发布。2015年10月1日起，国家启动将企业依次申请的工商营业执照、组织机构代码证和税务登记证三证合为一证，并将三证号码合并为统一社会信用代码。目前大部分企业均已完成合并，另有少部分企业其纳税人识别号仍然有效。"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="1.5dp"
+                    android:text="请注意"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginTop="4dp"
+                    android:lineSpacingExtra="1.5dp"
+                    android:text="此公告并不适用于政府机构及事业单位中的非企业单位，因此，如贵单位属于这种类型，可无需填写纳税人识别号/统一社会信用代码，谨慎起见，请您与贵单位财务部门联系确认。"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginRight="19dp"
+                    android:layout_marginTop="6dp"
+                    android:lineSpacingExtra="1.5dp"
+                    android:text="3.为什么要填写纳税人识别号/统一社会信用代码？"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#DFDFDF" />
+
+        <TextView
+            android:id="@+id/tv_fpxzshsm_wzdl"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="我知道了"
+            android:textColor="@color/theme"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,19 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+
+# Project exclude paths
+/IMKit/build/
+/IMKit/build/intermediates/classes/debug/
+/IMLib/build/
+/IMLib/build/intermediates/classes/debug/
+/lib_tcsuperplayer/build/
+/lib_tcsuperplayer/build/intermediates/classes/debug/
+/library/build/
+/library/build/intermediates/classes/debug/

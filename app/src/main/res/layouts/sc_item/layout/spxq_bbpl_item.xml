@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="144dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bbpl_bj"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_spxq_bbpl_item_pead_pic"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="12dp"
+                android:src="@drawable/photo1" />
+
+            <TextView
+                android:id="@+id/tv_spxq_bbpl_item_username"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1"
+                android:text="我可以露个"
+                android:textColor="#999999"
+                android:textSize="10sp" />
+
+            <ImageView
+                android:id="@+id/iv_spxq_bbpl_item_goods_rank"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:src="@drawable/star_selected" />
+
+            <ImageView
+                android:id="@+id/iv_spxq_bbpl_item_goods_rank1"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/star_selected" />
+
+            <ImageView
+                android:id="@+id/iv_spxq_bbpl_item_goods_rank2"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/star_selected" />
+
+            <ImageView
+                android:id="@+id/iv_spxq_bbpl_item_goods_rank3"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/star_selected" />
+
+            <ImageView
+                android:id="@+id/iv_spxq_bbpl_item_goods_rank4"
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="2dp"
+                android:src="@drawable/star_normal" />
+
+            <TextView
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="16dp"
+                android:text="10"
+                android:textColor="#F32608"
+                android:textSize="10sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_spxq_bbpl_item_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="6dp"
+            android:lineSpacingExtra="1.8dp"
+            android:lines="3"
+            android:text="最初之前，光是听到红酒名字就莫名激动了好久。是从16年迷上的张总，大概是对字如其人的期待，看到张总的字的那一刻我想，这该是一个多么优秀多么好看的人。然后就在…"
+            android:textColor="#333333"
+            android:textSize="12sp" />
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="16dp"
+            android:gravity="right">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/btn_zan_normal" />
+
+            <TextView
+                android:id="@+id/tv_spxq_bbpl_item_zan_num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="1dp"
+                android:text="21"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/btn_comment" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dp"
+                android:text="回复"
+                android:textColor="#999999"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

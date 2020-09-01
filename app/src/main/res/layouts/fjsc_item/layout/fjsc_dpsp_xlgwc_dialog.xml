@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="购物车"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/tv_fjsc_dpsp_xlgwc_num"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_weight="1"
+            android:text="(共0件商品)"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:layout_width="12dp"
+            android:layout_height="13dp"
+            android:layout_marginRight="7.3dp"
+            android:src="@mipmap/icon_delete3x" />
+
+        <TextView
+            android:id="@+id/tv_fjsc_dpsp_xlgwc_qkgwc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:text="清空购物车"
+            android:textColor="#666666"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+
+    <com.example.administrator.yunyue.sc_gridview.MyGridView
+        android:id="@+id/mgv_fjsc_dpsp_xlgwc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.example.administrator.yunyue.sc_gridview.MyGridView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_fjsc_dpsp_xlgwc_dialog"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@mipmap/bg_gouwuche"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_fjsc_dpsp_xlgwc_gwc"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="26dp"
+                android:src="@mipmap/icon_gowuche" />
+
+            <TextView
+                android:id="@+id/tv_fjsc_dpsp_xlgwc_price"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:hint="未选购商品"
+                android:lines="1"
+                android:text=""
+                android:textColor="#FFFFFF"
+                android:textColorHint="#999999"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_fjsc_dpsp_xlgwc_qjs"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:background="@mipmap/bg_gouwuche2"
+            android:gravity="center"
+            android:text="差￥20起送"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

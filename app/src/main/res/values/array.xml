@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spingarr">
+        <item>全国</item>
+        <item>周边</item>
+    </string-array>
+
+    <string-array name="lxrgx">
+        <item>子女</item>
+        <item>配偶</item>
+        <item>亲友</item>
+    </string-array>
+
+    <string-array name="dd">
+        <item>商城</item>
+        <item>养老院</item>
+        <item>康养需求</item>
+    </string-array>
+
+</resources>

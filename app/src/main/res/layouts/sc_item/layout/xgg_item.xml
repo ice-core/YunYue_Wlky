@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_xgg_item"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bj_f4f4f4_6"
+        android:gravity="center"
+        android:text="无需合约"
+        android:textColor="@color/qian_hei"
+        android:textSize="10sp" />
+</LinearLayout>

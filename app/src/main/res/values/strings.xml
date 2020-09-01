@@ -1,0 +1,211 @@
+<resources>
+    <string name="app_name">物流快运</string>
+    <string name="app">该APP</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--    <string name="url">http://ecocloud.bonnidee.cn/Api/</string>
+        <string name="tuurl">http://ecocloud.bonnidee.cn</string>-->
+    <!--生态云-->
+    <!--    <string name="url">https://shengtaiyun.bonnidee.cn/</string>-->
+    <!-- <string name="appId">11</string>-->
+    <string name="yhxy"></string>
+    <!--   lenovo.bonnidee.cn-->
+    <!--    <string name="url">http://lenovo.bndvip.com/Api/</string>
+        <string name="tuurl">http://lenovo.bndvip.com</string>-->
+    <string name="tiaoguo">跳过</string>
+    <string name="ljkq">立即开启</string>
+    <string name="ljty">立即体验</string>
+    <string name="denglu">登录</string>
+    <string name="zhuce">注册</string>
+    <string name="qsrsjhm">请输入手机号码</string>
+    <string name="qsryqm">请输入邀请码</string>
+    <string name="wjmm">忘记密码?</string>
+    <string name="qsrmm">请输入密码</string>
+    <string name="hqyzm">获取验证码</string>
+    <string name="qsryzm">请输入验证码</string>
+    <string name="qsrdlmm">请输入6-16位登录密码</string>
+    <string name="qzycqrmm">请再一次确认密码</string>
+    <string name="shouye">首页</string>
+    <string name="fenlei">分类</string>
+    <string name="gouwuche">购物车</string>
+    <string name="wode">我的</string>
+    <string name="jrscj">加入收藏夹</string>
+    <string name="wdqb">我的钱包</string>
+    <string name="sjcz">手机充值</string>
+    <string name="hbkj">红包/卡卷</string>
+    <string name="cjhd">抽奖活动</string>
+    <string name="wdsc">我的收藏</string>
+    <string name="shdz">收货地址</string>
+    <string name="sjrz">商家入驻</string>
+    <string name="yqhy">邀请好友</string>
+    <string name="bzyfk">帮助与反馈</string>
+    <string name="bzfkhint">亲，我们非常重视您给我们提出的宝贵建议，帮助我们不断完善产品</string>
+    <string name="wddd">我的订单</string>
+    <string name="ckqbdd">查看全部订单</string>
+    <string name="dfk">待付款</string>
+    <string name="dfh">待发货</string>
+    <string name="dsh">待收货</string>
+    <string name="ysh">已收货</string>
+    <string name="yqr">邀请人：</string>
+    <string name="yqm">邀请码：</string>
+    <string name="jf">积分:</string>
+    <string name="ptyh">普通用户</string>
+    <string name="hj">合计</string>
+    <string name="js">结算</string>
+    <string name="qx">全选</string>
+    <string name="quan">￥</string>
+    <string name="bj">编辑</string>
+    <string name="sssp">搜索商品</string>
+    <string name="tj">提交</string>
+    <string name="startlocation">开始定位</string>
+    <string name="stoplocation">停止定位</string>
+    <string name="tsbz">特殊备注</string>
+
+    <!--设置账号-->
+    <string name="tcdl">退出登录</string>
+    <string name="xgtx">头像</string>
+    <string name="nc">昵称</string>
+    <string name="xb">性别</string>
+    <string name="sjh">手机号</string>
+    <string name="xgmm">修改密码</string>
+    <string name="zhsz">账号设置</string>
+
+    <!--忘记密码-->
+    <string name="queren">确认</string>
+
+    <!--收货地址-->
+    <string name="xjdz">+   新建收货地址</string>
+    <string name="xjshdz">新建收货地址</string>
+    <string name="bjshdz">编辑收货地址</string>
+    <string name="bc">保存</string>
+    <string name="sc">删除</string>
+
+    <!--新建收货地址-->
+    <string name="shr">收货人</string>
+    <string name="qsrshrxm">请输入收货人姓名</string>
+    <string name="sjhm">手机号码</string>
+    <string name="szsheng">所在省</string>
+    <string name="szshi">所在市</string>
+    <string name="szqu">所在区</string>
+    <string name="xxdz">详细地址</string>
+    <string name="rxqmph">如小区、门牌号</string>
+    <string name="mrdz">默认地址</string>
+
+    <!--我的钱包-->
+    <string name="wdjf">我的积分</string>
+    <string name="yhkgl">银行卡管理</string>
+    <string name="jymx">交易明细</string>
+    <string name="zfmm">支付密码</string>
+
+    <!--银行卡管理-->
+    <string name="tjyhk">添加银行卡</string>
+    <string name="jcbd">解除绑定</string>
+
+    <!--添加银行卡-->
+    <string name="ckr">持卡人</string>
+    <string name="qsrckrxm">请输入持卡人姓名</string>
+    <string name="yhkkh">银行卡卡号</string>
+    <string name="qsryhkkh">请输入银行卡卡号</string>
+    <string name="ssyh">所属银行</string>
+    <string name="qsrssyh">请输入所属银行</string>
+    <string name="qrbd">确认绑定</string>
+
+    <!--支付密码-->
+    <string name="qqrmm">请确认密码</string>
+    <string name="qrmm">确认密码</string>
+
+    <!--余额提现-->
+    <string name="yetx">余额提现</string>
+    <string name="qrzc">确认转出</string>
+    <string name="qb">全部</string>
+    <string name="kzcdk">可转出到卡</string>
+    <string name="xzdzyh">选择到账银行</string>
+    <string name="syxktx">使用新卡提现</string>
+
+    <!--红包/卡卷-->
+    <string name="ljsy">立即使用</string>
+
+    <!--抽奖-->
+    <string name="gz">1.每人最多有3次机会参与抽奖，新用户首次免费参与，每邀请一位新好友加入，可额外获得一次机会。
+        2.一等奖价值100元礼品，二等奖价值50元礼品，三等奖价值30元礼品。
+        3.活动主办单位：联响商务平台
+        4.活动说明：
+        点击“开始”转盘开始转动，最终指针指着的即为您所中的奖品。</string>
+    <string name="mcgyq">每成功邀请一名注册用户，增加一次抽奖机会。</string>
+    <string name="yqzc">邀请注册</string>
+    <string name="wdjp">我的奖品</string>
+
+    <!--官方消息-->
+    <string name="gfxx">官方消息</string>
+
+    <!--我的订单-->
+    <string name="quanbu">全部</string>
+    <string name="dpl">待评论</string>
+    <string name="sh">售后</string>
+    <!--支付完成-->
+    <string name="zfcg">支付成功</string>
+    <string name="zfwc">支付完成</string>
+    <string name="jxgm">继续购买</string>
+    <string name="ckdd">查看订单</string>
+
+    <!--查看订单-->
+    <string name="jycg">交易成功</string>
+    <string name="ddxx">订单信息</string>
+    <string name="ddbh">订单编号：</string>
+    <string name="cjsj">创建时间：</string>
+    <string name="fksj">付款时间：</string>
+    <string name="ckwl">查看物流</string>
+    <string name="yf">运费</string>
+    <string name="hbyhj">红包/优惠卷</string>
+    <string name="sfk">实付款（含运费）</string>
+    <string name="lxmj">联系卖家</string>
+    <string name="qrsh">确认收货</string>
+
+    <!--提现-->
+    <string name="tx">提现</string>
+    <string name="mx">明细</string>
+    <string name="zhye">账户余额</string>
+    <string name="ktxye">可提现余额</string>
+    <string name="txye">提现余额</string>
+    <string name="sxf">手续费</string>
+    <string name="txzh">提现账户</string>
+    <string name="zfbzh">支付宝账号</string>
+    <string name="sqtx">申请提现</string>
+    <string name="qsr">请输入</string>
+    <string name="srzfbzh">输入支付宝账号</string>
+    <string name="srzsxm">输入真实姓名</string>
+    <string name="txmx">提现明细</string>
+    <string name="xm">姓名</string>
+    <string name="zfb">支付宝</string>
+    <!--     <string name="hello_blank_fragment">Hello blank fragment</string>TODO: Remove or change this placeholder text -->
+    <!--我的积分-->
+
+    <!--启动页-->
+    <string name="jj">物超所值 全城大折扣 你值得拥有，为爱，\n为家、轻松赚钱你我他。</string>
+
+
+    <string name="network_unavailable">当前网络不可用</string>
+    <string name="network_error_and_retry_after">网络问题请稍后重试</string>
+
+
+    <string name="usercenter_selete_address_gps_close">检测到GPS未开启，是否前往\"设置\"中开启</string>
+    <string name="button_confirm">确定</string>
+    <string name="button_cancel">取消</string>
+    <string name="baidu_location_address">位置</string>
+    <string name="baidu_location_send">发送</string>
+    <string name="button_goto_setting">去设置</string>
+    <string name="button_refuse">拒绝</string>
+    <string name="loading_progress">加载中...</string>
+    <string name="web_im_sending_address">正在发送定位,请稍候...</string>
+    <string name="permission_access_coarse_location">定位</string>
+    <string name="search_input_content_empty">搜索内容为空,请输入.</string>
+    <string name="usercenter_search_no_result">没有搜索到结果</string>
+    <string name="finish_search_address">完成搜索</string>
+    <string name="web_im_get_address_failure">定位获取失败，无法发送</string>
+    <string name="result_gps_confirm_close">GPS定位设置未开启</string>
+    <string name="alert_upload_img">截图已获取到,待上传</string>
+    <string name="baidu_local">百度地图_服务</string>
+
+    <string name="szmm">如未设置密码请至【我的钱包-支付密码】设置</string>
+    <string name="jyxgw">官网：\nhttps://www.sxjiyuanxiang.com/\nhttps://sxjiyuanxiang.com/</string>
+</resources>

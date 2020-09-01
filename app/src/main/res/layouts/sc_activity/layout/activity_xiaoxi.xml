@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fl_hzrz"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:background="#F5F5F5"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#ffffff"
+        android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/iv_gfxx_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:src="@mipmap/header3x" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/gfxx"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="100%" />
+
+
+    </FrameLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#cbcbc6" />
+
+    <LinearLayout
+        android:id="@+id/ll_hzrz"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <com.example.administrator.yunyue.Listview.ListView
+            android:id="@+id/lv_sqtz"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.example.administrator.yunyue.Listview.ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

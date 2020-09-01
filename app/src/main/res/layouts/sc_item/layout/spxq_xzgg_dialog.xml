@@ -1,0 +1,266 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_c"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:id="@+id/iv_spxq_xzgg_dialog_image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="centerCrop" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="80dp"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:gravity="bottom"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="bottom">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:text="￥"
+                        android:textColor="#FFF32608"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_spxq_xzgg_dialog_shop_price"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="5dp"
+                        android:gravity="center_vertical"
+                        android:text=""
+                        android:textColor="#FFF32608"
+                        android:textSize="14sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_spxq_xzgg_dialog_storecount"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="库存0件"
+                    android:textColor="#FF999999"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tv_spxq_xzgg_dialog_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:singleLine="true"
+                    android:text=""
+                    android:textColor="#FF333333"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="right">
+
+                <ImageView
+                    android:id="@+id/iv_spxq_xzgg_dialog_gb"
+                    android:layout_width="16dp"
+                    android:layout_height="16dp"
+                    android:src="@drawable/btn_closed" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#FFDFDFDF" />
+
+                <TextView
+                    android:id="@+id/tv_spxq_xzgg_dialog_xgg1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <com.example.administrator.yunyue.sc_gridview.MyGridView
+                    android:id="@+id/mgv_spxq_xzgg_dialog_xgg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="9dp"
+                    android:horizontalSpacing="8dp"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="3" />
+
+                <TextView
+                    android:id="@+id/tv_spxq_xzgg_dialog_xgg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <com.example.administrator.yunyue.sc_gridview.MyGridView
+                    android:id="@+id/mgv_spxq_xzgg_dialog_xgg2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="9dp"
+                    android:horizontalSpacing="8dp"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="3" />
+
+                <TextView
+                    android:id="@+id/tv_spxq_xzgg_dialog_xgg3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <com.example.administrator.yunyue.sc_gridview.MyGridView
+                    android:id="@+id/mgv_spxq_xzgg_dialog_xgg3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="9dp"
+                    android:horizontalSpacing="8dp"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="3" />
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="购买数量"
+                android:textColor="@color/black"
+                android:textSize="12sp" />
+
+
+            <ImageView
+                android:id="@+id/iv_spxq_xzgg_dialog_xgg_jian"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/btn_subtract_bg" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:background="#FFF4F4F4"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tv_spxq_xzgg_dialog_xgg_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="1"
+                    android:textColor="#FF333333"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_spxq_xzgg_dialog_xgg_jia"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:background="@drawable/btn_add_bg"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/iv_spxq_xzgg_dialog_xgg_jia"
+                    android:layout_width="12dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/btn_add_gg" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/bt_spxq_xzgg_dialog_xgg_qr"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bj_ff4350b6_19"
+        android:gravity="center"
+        android:text="确认"
+        android:textColor="@color/white_c"
+        android:textSize="12sp" />
+</LinearLayout>

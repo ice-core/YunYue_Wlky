@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f5f6fa"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical"
+        app:layout_widthPercent="100%">
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_heightPercent="7.5%"
+            app:layout_widthPercent="100%">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/et_item"
+                android:gravity="center"
+                app:layout_heightPercent="80%"
+                app:layout_widthPercent="95%">
+
+                <EditText
+                    android:id="@+id/et_xzdz_name"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:hint="姓名"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    app:layout_heightPercent="80%"
+                    app:layout_textSizePercent="40%"
+                    app:layout_widthPercent="95%" />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:visibility="gone"
+            app:layout_heightPercent="7.5%"
+            app:layout_widthPercent="100%">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/et_item"
+                android:gravity="center"
+                app:layout_heightPercent="80%"
+                app:layout_widthPercent="95%">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:hint="身份证"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    app:layout_heightPercent="80%"
+                    app:layout_textSizePercent="40%"
+                    app:layout_widthPercent="95%" />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_heightPercent="7.5%"
+            app:layout_widthPercent="100%">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/et_item"
+                android:gravity="center"
+                app:layout_heightPercent="80%"
+                app:layout_widthPercent="95%">
+
+                <EditText
+                    android:id="@+id/et_xzdz_mobile"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:hint="电话"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    app:layout_heightPercent="80%"
+                    app:layout_textSizePercent="40%"
+                    app:layout_widthPercent="95%" />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_heightPercent="7.5%"
+            app:layout_widthPercent="100%">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:id="@+id/ll_xzdz_sheng"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/et_item"
+                android:gravity="center"
+                app:layout_heightPercent="80%"
+                app:layout_widthPercent="95%">
+
+                <TextView
+                    android:id="@+id/tv_xzdz_sheng"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:hint="请选择省"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    app:layout_heightPercent="80%"
+                    app:layout_textSizePercent="40%"
+                    app:layout_widthPercent="90%" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:src="@mipmap/header3x"
+                    app:layout_heightPercent="20%"
+                    app:layout_widthPercent="5%" />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_heightPercent="7.5%"
+            app:layout_widthPercent="100%">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:id="@+id/ll_xzdz_shi"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/et_item"
+                android:gravity="center"
+                app:layout_heightPercent="80%"
+                app:layout_widthPercent="95%">
+
+                <TextView
+                    android:id="@+id/tv_xzdz_shi"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:hint="请选择市"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    app:layout_heightPercent="80%"
+                    app:layout_textSizePercent="40%"
+                    app:layout_widthPercent="90%" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:src="@mipmap/header3x"
+                    app:layout_heightPercent="20%"
+                    app:layout_widthPercent="5%" />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_heightPercent="7.5%"
+            app:layout_widthPercent="100%">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:id="@+id/ll_xzdz_qu"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/et_item"
+                android:gravity="center"
+                app:layout_heightPercent="80%"
+                app:layout_widthPercent="95%">
+
+
+                <TextView
+                    android:id="@+id/tv_xzdz_qu"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:hint="请选择区"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    app:layout_heightPercent="80%"
+                    app:layout_textSizePercent="40%"
+                    app:layout_widthPercent="90%" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:src="@mipmap/header3x"
+                    app:layout_heightPercent="20%"
+                    app:layout_widthPercent="5%" />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_heightPercent="7.5%"
+            app:layout_widthPercent="100%">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/et_item"
+                android:gravity="center"
+                app:layout_heightPercent="80%"
+                app:layout_widthPercent="95%">
+
+
+                <EditText
+                    android:id="@+id/et_xzdz_address"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:hint="地址"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    app:layout_heightPercent="80%"
+                    app:layout_textSizePercent="40%"
+                    app:layout_widthPercent="95%" />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:visibility="gone"
+            app:layout_heightPercent="7.5%"
+            app:layout_widthPercent="100%">
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/et_item"
+                android:gravity="center"
+                app:layout_heightPercent="80%"
+                app:layout_widthPercent="95%">
+
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:hint="邮编"
+                    android:singleLine="true"
+                    android:textColor="@color/black"
+                    app:layout_heightPercent="80%"
+                    app:layout_textSizePercent="40%"
+                    app:layout_widthPercent="95%" />
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#ffffff"
+        app:layout_heightPercent="8%"
+        app:layout_marginTopPercent="2%"
+        app:layout_widthPercent="100%">
+
+        <TextView
+            android:id="@+id/tv_rm_miaoshu"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:text="设置为默认"
+            android:textColor="#000000"
+            app:layout_heightPercent="100%"
+            app:layout_marginLeftPercent="2%"
+            app:layout_textSizePercent="25%"
+            app:layout_widthPercent="30%"></TextView>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="right"
+            app:layout_heightPercent="100%">
+
+            <Switch
+                android:id="@+id/sw_xzdz_default"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:checked="true"
+                android:theme="@style/MySwitch"
+                app:layout_marginRightPercent="6%" />
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#ffffff"
+        app:layout_heightPercent="20%"
+        app:layout_marginTopPercent="2%"
+        app:layout_widthPercent="100%">
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:gravity="center"
+            app:layout_heightPercent="35%"
+            app:layout_marginTopPercent="8%"
+            app:layout_widthPercent="100%">
+
+            <Button
+                android:id="@+id/bt_xzdz_save"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="@drawable/login"
+                android:text="添加地址"
+                android:textColor="#ffffff"
+                app:layout_heightPercent="90%"
+                app:layout_textSizePercent="35%"
+                app:layout_widthPercent="95%" />
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+</com.zhy.android.percent.support.PercentLinearLayout>

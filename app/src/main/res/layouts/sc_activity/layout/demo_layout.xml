@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:loonggg="http://schemas.android.com/apk/res-auto"
+xmlns:wheelSurfView="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:fitsSystemWindows="true"
+android:orientation="vertical">
+
+
+<com.zhy.android.percent.support.PercentRelativeLayout
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:background="#ffffff"
+    android:gravity="center"
+    app:layout_heightPercent="6%"
+    app:layout_widthPercent="100%">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        app:layout_heightPercent="100%"
+        app:layout_widthPercent="10%">
+
+        <ImageView
+            android:id="@+id/iv_cjhd_back"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@mipmap/header3x"
+            app:layout_heightPercent="50%"
+            app:layout_marginLeftPercent="3%"
+            app:layout_widthPercent="100%" />
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_alignLeft="@+id/bt_e_return"
+        android:layout_alignParentTop="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/blove"
+        app:layout_heightPercent="100%"
+        app:layout_marginLeftPercent="5.5%"
+        app:layout_textSizePercent="40%" />
+
+    <com.zhy.android.percent.support.PercentRelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        app:layout_heightPercent="100%"
+        app:layout_widthPercent="100%">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignParentTop="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/cjhd"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            app:layout_heightPercent="100%"
+            app:layout_widthPercent="100%" />
+
+    </com.zhy.android.percent.support.PercentRelativeLayout>
+
+
+</com.zhy.android.percent.support.PercentRelativeLayout>
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="0dp"
+    android:background="#cbcbc6"
+    app:layout_heightPercent="0.1%"
+    app:layout_widthPercent="100%" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@mipmap/homebg"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            app:layout_heightPercent="135%"
+            app:layout_widthPercent="100%">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@mipmap/title"
+                app:layout_heightPercent="14%"
+                app:layout_marginTopPercent="2.5%"
+                app:layout_widthPercent="100%" />
+
+            <com.zhy.android.percent.support.PercentFrameLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+
+                app:layout_heightPercent="40%"
+                app:layout_marginTopPercent="1.5%"
+                app:layout_widthPercent="100%">
+
+                <com.cretin.www.wheelsruflibrary.view.WheelSurfView
+                    android:id="@+id/wheelSurfView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="20dp"
+                    wheelSurfView:typenum="-1">
+
+                </com.cretin.www.wheelsruflibrary.view.WheelSurfView>
+            </com.zhy.android.percent.support.PercentFrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/mcgyq"
+                android:textColor="#FFAC99"
+                android:textSize="14sp"
+                app:layout_marginTopPercent="1.8%" />
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+
+                app:layout_marginTopPercent="1%"
+                app:layout_widthPercent="100%">
+
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:id="@+id/ll_cjhd_yqzc"
+                    android:layout_width="134dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/bg_cj"
+                    android:gravity="center"
+                    app:layout_heightPercent="80%">
+
+                    <ImageView
+                        android:layout_width="19dp"
+                        android:layout_height="15dp"
+                        android:src="@mipmap/yaoqing" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/yqzc"
+                        android:textColor="@color/theme"
+                        android:textSize="15sp"
+                        app:layout_marginLeftPercent="5%" />
+
+                </com.zhy.android.percent.support.PercentLinearLayout>
+
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:id="@+id/ll_cjhd_wdjp"
+                    android:layout_width="134dp"
+                    android:layout_height="0dp"
+                    android:background="@drawable/bg_cj"
+                    android:gravity="center"
+                    app:layout_heightPercent="80%"
+                    app:layout_marginLeftPercent="20%">
+
+                    <ImageView
+                        android:layout_width="23dp"
+                        android:layout_height="23dp"
+                        android:src="@mipmap/jiangpin" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/wdjp"
+                        android:textColor="@color/theme"
+                        android:textSize="15sp"
+                        app:layout_marginLeftPercent="5%" />
+
+
+                </com.zhy.android.percent.support.PercentLinearLayout>
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="23dp"
+                android:gravity="center"
+                app:layout_heightPercent="4%"
+                app:layout_widthPercent="100%">
+
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="225dp"
+                    android:layout_height="33dp"
+                    android:layout_gravity="center"
+                    android:background="@mipmap/dibu"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@mipmap/zuobian"
+                        app:layout_heightPercent="50%"
+                        app:layout_marginRightPercent="3%"
+                        app:layout_widthPercent="22%" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="活动规则"
+                        android:textColor="#FEE2D7"
+                        android:textSize="17sp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:src="@mipmap/youbian"
+                        app:layout_heightPercent="50%"
+                        app:layout_marginLeftPercent="3%"
+                        app:layout_widthPercent="22%" />
+                </com.zhy.android.percent.support.PercentLinearLayout>
+
+
+            </com.zhy.android.percent.support.PercentLinearLayout>
+
+            <com.zhy.android.percent.support.PercentLinearLayout
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:gravity="center"
+                app:layout_heightPercent="16%"
+                app:layout_widthPercent="100%">
+
+                <com.zhy.android.percent.support.PercentLinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:background="#FFDFCD"
+                    android:gravity="center"
+                    app:layout_heightPercent="100%"
+                    app:layout_widthPercent="90%">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:text="@string/gz"
+                        android:textSize="12sp"
+                        app:layout_heightPercent="90%"
+                        app:layout_widthPercent="90%" />
+                </com.zhy.android.percent.support.PercentLinearLayout>
+            </com.zhy.android.percent.support.PercentLinearLayout>
+        </com.zhy.android.percent.support.PercentLinearLayout>
+    </com.zhy.android.percent.support.PercentLinearLayout>
+</ScrollView>
+
+
+</com.zhy.android.percent.support.PercentLinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:background="@drawable/bg_round_white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/tv_qxgz_message"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:lineSpacingExtra="3dp"
+        android:text="不再关注“不错研究室”
+将不在收到其下发的信息"
+        android:textColor="#030303"
+        android:textSize="17sp" />
+
+
+    <View
+        android:layout_width="270dp"
+        android:layout_height="0.1dp"
+        android:background="@color/commom_background" />
+
+    <LinearLayout
+        android:layout_width="270dp"
+        android:layout_height="44dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_qxgz_rygz"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="仍要关注"
+            android:textColor="#007AFF"
+            android:textSize="17dp" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:background="@color/commom_background" />
+
+        <TextView
+            android:id="@+id/tv_qxgz_bzgz"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="不再关注"
+            android:textColor="#007AFF"
+            android:textSize="17dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

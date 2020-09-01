@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+
+                    android:layout_weight="1"
+                    android:text="发票"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_txdd_dzfp_dialog_fpxz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发票须知"
+                    android:textColor="#333333"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:id="@+id/iv_txdd_dzfp_dialog_gb"
+                    android:layout_width="11dp"
+                    android:layout_height="11dp"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/btn_closed" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="发票类型"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="26dp"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/bk_e51c23_13"
+                android:gravity="center"
+                android:text="电子普通发票"
+                android:textColor="#E51C23"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="电子普通发票与纸质普通发票具备同等法律效力，可支持报销入账"
+                android:textColor="#999999"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:text="发票抬头"
+                android:textColor="#000000"
+                android:textSize="12sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:id="@+id/tv_txdd_dzfp_dialog_gr"
+                    android:layout_width="75dp"
+                    android:layout_height="26dp"
+                    android:background="@drawable/bk_e51c23_13"
+                    android:gravity="center"
+                    android:text="个人"
+                    android:textColor="#E51C23"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_txdd_dzfp_dialog_dw"
+                    android:layout_width="75dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="9dp"
+                    android:background="@drawable/bk_dfdfdf_12"
+                    android:gravity="center"
+                    android:text="单位"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_txdd_dzfp_dialog_danwei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="16dp"
+                    android:background="@drawable/bj_f4f4f4_19">
+
+                    <EditText
+                        android:id="@+id/et_txdd_dzfp_dialog_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@null"
+                        android:hint="请填写单位名称"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textColorHint="#CCCCCC"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="38dp"
+                    android:layout_marginTop="13dp"
+                    android:background="@drawable/bj_f4f4f4_19"
+                    android:gravity="center_vertical">
+
+                    <EditText
+                        android:id="@+id/et_txdd_dzfp_dialog_nsh"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:background="@null"
+                        android:hint="请在此填写纳税人识别号"
+                        android:text=""
+                        android:textColor="#000000"
+                        android:textColorHint="#E51C23"
+                        android:textSize="12sp" />
+
+                    <ImageView
+                        android:id="@+id/iv_txdd_dzfp_dialog_shsm"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/btn_inform" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="收票人信息"
+                android:textColor="#000000"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收票人手机"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:background="@null"
+                    android:hint="可通过手机号在发票服务平台查询"
+                    android:text=""
+                    android:textColor="#333333"
+                    android:textColorHint="#CCCCCC"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="32dp"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="收票人邮箱"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="16dp"
+                    android:background="@null"
+                    android:hint="用来接收电子发票邮件，可选填"
+                    android:text=""
+                    android:textColor="#333333"
+                    android:textColorHint="#CCCCCC"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="发票内容"
+                    android:textColor="#000000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="发票内容选项已根据税法调整，具体请以展示为准"
+                    android:textColor="#999999"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="26dp"
+                    android:background="@drawable/bk_e51c23_13"
+                    android:gravity="center"
+                    android:text="商品明细"
+                    android:textColor="#E51C23"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="26dp"
+                    android:layout_marginLeft="9dp"
+                    android:background="@drawable/bk_dfdfdf_12"
+                    android:gravity="center"
+                    android:text="商品类别"
+                    android:textColor="#333333"
+                    android:textSize="12sp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:lineSpacingExtra="1.8dp"
+                android:text="发票内容将显示详细商品名称与价格信息，发票金额为实际支付金额，不含虚拟资产 、优惠等扣减金额。"
+                android:textColor="#999999"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/tv_txdd_dzfp_dialog_xyb"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bj_lan19"
+        android:gravity="center"
+        android:text="下一步"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp" />
+</LinearLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="hei_2a2a2a">#2a2a2a</color>
+    <!--主题色-->
+    <color name="theme">#0C54A0</color>
+    <color name="theme90">#900C54A0</color>
+    <!--白色-->
+    <color name="white">#FFFFFF</color>
+    <color name="white_c">#FFFFFF</color>
+    <!--蓝色-->
+    <color name="lan">@color/theme</color>
+    <color name="lan_4A90E2">#4A90E2</color>
+    <color name="qian_lan">#504350B6</color>
+    <color name="lan_4350b6">#4350B6</color>
+
+    <!--浅灰-->
+    <color name="hui">#CCCCCC</color>
+    <color name="hui2a2a2a">#2A2A2C</color>
+    <!-- 白色 -->
+    <color name="sy_hui">#BBBCCD</color>
+    <color name="hui999999">#999999</color>
+    <color name="black">#000000</color>
+    <color name="gray">#808080</color>
+    <color name="red">#ffff0000</color>
+    <color name="blove">#006DCC</color>
+    <color name="commom_background">#f3f3f3</color>
+    <!--  <color name="theme">#FF6801</color>-->
+    <color name="theme_qian">#50FF6801</color>
+    <color name="font_common_1">#424242</color>
+    <color name="font_blue">#42369a</color>
+    <color name="font_common_2">#a1a1a1</color>
+    <color name="lucency">#00000000</color>
+    <color name="bantou">#80000000</color>
+    <color name="touming">#00000000</color>
+    <color name="tg">#DA5310</color>
+    <color name="kq">#FF6801</color>
+    <color name="huang">#fff500</color>
+    <color name="zt_hui">#b7b5b8</color>
+    <color name="hong">#fc2449</color>
+    <color name="sh_sb">#F84866</color>
+    <color name="sh_dd">#CBCBCB</color>
+    <color name="sh_tg">#FF6801</color>
+    <color name="blue_2bbbe6">#2BBBE6</color>
+    <color name="E51C23">#E51C23</color>
+    <color name="qian_hei">#333333</color>
+    <color name="hei333333">#333333</color>
+    <color name="hei666666">#666666</color>
+    <color name="bbbccd">#BBBCCD</color>
+
+
+    <color name="press">#e8e8e8</color>
+
+    <color name="de_title_bg">#0195ff</color>
+    <color name="seal_bg">#f0f0f6</color>
+    <color name="hui9b9b9b">#9B9B9B</color>
+    <color name="hui4a4a4a">#4A4A4A</color>
+
+
+    <color name="color_white">#ffffffff</color>
+    <color name="text_gray">#303030</color><!--字体灰色-->
+    <color name="text_gray_01">#606060</color>
+    <color name="item_line_cover">#cccccc</color>
+    <color name="color_orange">#fe9311</color>
+    <color name="color_dialog_text">#2e2e2e</color>
+    <color name="gray_6">#666666</color>
+    <color name="item_line">#dedede</color>
+    <color name="gray_9">#999999</color>
+    <color name="color_head_blue">#960019</color>
+    <color name="color_gray_backgroud">#f4f4f4</color>
+    <color name="f4f4f4">#f4f4f4</color>
+    <color name="transparent">#00000000</color>
+    <color name="THEME_SELECTOR_NOMAL">#b9717d</color>
+    <color name="cccccc">#cccccc</color>
+    <color name="ffffff">#ffffff</color>
+
+</resources>

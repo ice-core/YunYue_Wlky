@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:gravity="center_vertical">
+
+        <CheckBox
+            android:id="@+id/cb_gouwuche_amount"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:background="@null"
+            android:button="@drawable/cb"
+            android:textColor="#050505"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/qx"
+            android:textColor="#333333"
+            android:textSize="12sp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_shopping_heji"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:text="合计："
+                        android:textColor="#333333"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/quan"
+                        android:textColor="#E51C23"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/tv_gouwuche_amount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:singleLine="true"
+                        android:text="0.0"
+                        android:textColor="#E51C23"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/bt_shopp_jiesuan"
+                    android:layout_width="110dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/theme"
+                    android:text="提交订单"
+                    android:textColor="@color/white_c"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_shopping_bj"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/tv_gwc_shoucang"
+                    android:layout_width="64dp"
+                    android:layout_height="28dp"
+                    android:layout_marginRight="8dp"
+                    android:background="@drawable/bk_dfdfdf_15"
+                    android:gravity="center"
+                    android:text="移入收藏"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/tv_shopp_delete"
+                    android:layout_width="64dp"
+                    android:layout_height="28dp"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/bk_dfdfdf_15"
+                    android:gravity="center"
+                    android:text="删除"
+                    android:textColor="#333333"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

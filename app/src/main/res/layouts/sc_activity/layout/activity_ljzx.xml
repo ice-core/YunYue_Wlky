@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/theme">
+
+        <LinearLayout
+            android:id="@+id/ll_kajuan_back"
+            android:layout_width="50dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="15dp"
+                android:src="@mipmap/arrow_right2x_bai" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_szmm_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="领券中心"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#DFDFDF" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white_c">
+
+        <LinearLayout
+            android:id="@+id/ll_llzx_qcty"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_llzx_qcty"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="全场通用"
+                android:textColor="@color/theme"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_llzx_qcty_xhx"
+                android:layout_width="60dp"
+                android:layout_height="3dp"
+                android:background="@color/theme" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_llzx_dpzy"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_llzx_dpzy"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="店铺专用"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_llzx_dpzy_xhx"
+                android:layout_width="60dp"
+                android:layout_height="3dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/srl_control"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srlAccentColor="#00000000"
+            app:srlEnablePreviewInEditMode="true"
+            app:srlPrimaryColor="#00000000">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/f4f4f4">
+
+        <com.example.administrator.yunyue.sc_gridview.MyGridView
+            android:id="@+id/mgv_ljzx_liebiao"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></com.example.administrator.yunyue.sc_gridview.MyGridView>
+    </ScrollView>
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+</LinearLayout>

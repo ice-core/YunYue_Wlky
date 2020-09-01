@@ -1,0 +1,3 @@
+include ':app', ':rvbanner', ':library', ':swipemenulib', ':wheelsruflibrary', ':zxinglibrary',
+        ':lib_tcsuperplayer', ':flowviews', ':IMLib', ':IMKit', ':downloadInstaller', ':pickerview',
+        ':wheelview'

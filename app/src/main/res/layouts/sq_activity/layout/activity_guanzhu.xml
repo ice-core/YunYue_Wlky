@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fitsSystemWindows="true"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/iv_guanzhu_back"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/back1x" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="关注"
+            android:textColor="#000000"
+            android:textSize="17.5sp" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#F4F4F4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_guanzhu_shequn"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="社群"
+                android:textColor="@color/theme"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_guanzhu_shequn_bj"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/theme" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_guanzhu_shequ"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="社区"
+                android:textColor="#999999"
+
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_guanzhu_shequ_bj"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/ll_guanzhu_wgld"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#F4F4F4"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="我管理的"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <com.example.administrator.yunyue.sc_gridview.MyGridView
+                android:id="@+id/mgv_guanzhu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="1"></com.example.administrator.yunyue.sc_gridview.MyGridView>
+
+            <LinearLayout
+                android:id="@+id/ll_guanzhu_wjrd"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#F4F4F4"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:text="我加入的"
+                    android:textColor="#666666"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <com.example.administrator.yunyue.sc_gridview.MyGridView
+                android:id="@+id/mgv_guanzhu_jr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:numColumns="1"></com.example.administrator.yunyue.sc_gridview.MyGridView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

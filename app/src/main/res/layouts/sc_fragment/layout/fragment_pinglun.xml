@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="22dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_pl_rank"
+                    android:layout_width="16dp"
+                    android:layout_height="15dp"
+                    android:src="@mipmap/shouchang" />
+
+                <ImageView
+                    android:id="@+id/iv_pl_rank1"
+                    android:layout_width="16dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@mipmap/shouchang" />
+
+                <ImageView
+                    android:id="@+id/iv_pl_rank2"
+                    android:layout_width="16dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@mipmap/shouchang" />
+
+                <ImageView
+                    android:id="@+id/iv_pl_rank3"
+                    android:layout_width="16dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@mipmap/shouchang" />
+
+                <ImageView
+                    android:id="@+id/iv_pl_rank4"
+                    android:layout_width="16dp"
+                    android:layout_height="15dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@mipmap/shouchang" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_pinglun_goods_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="商品简介"
+                android:textColor="@color/black"
+                android:textSize="23sp" />
+
+            <TextView
+                android:id="@+id/tv_pinglun_collect_sum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:text="商品简介"
+                android:textSize="15sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="81dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.example.administrator.yunyue.sc.CircleImageView
+                        android:id="@+id/iv_pl_head_pic"
+                        android:layout_width="51dp"
+                        android:layout_height="51dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.example.administrator.yunyue.sc.CircleImageView
+                        android:id="@+id/iv_pl_head_pic1"
+                        android:layout_width="51dp"
+                        android:layout_height="51dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.example.administrator.yunyue.sc.CircleImageView
+                        android:id="@+id/iv_pl_head_pic2"
+                        android:layout_width="51dp"
+                        android:layout_height="51dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <com.example.administrator.yunyue.sc.CircleImageView
+                        android:id="@+id/iv_pl_head_pic3"
+                        android:layout_width="51dp"
+                        android:layout_height="51dp" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/iv_pl_head_pic4"
+                        android:layout_width="51dp"
+                        android:layout_height="51dp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/dot_normal" />
+
+                    <TextView
+                        android:id="@+id/tv_pl_head_pic"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/black" />
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.example.administrator.yunyue.sc_gridview.MyGridView
+            android:id="@+id/gv_pinglun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></com.example.administrator.yunyue.sc_gridview.MyGridView>
+
+    </LinearLayout>
+
+</LinearLayout>

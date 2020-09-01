@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.android.percent.support.PercentLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_bg"
+    android:orientation="vertical">
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        app:layout_heightPercent="8%"
+        app:layout_marginTopPercent="2%"
+        app:layout_widthPercent="100%">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="访客邀请"
+            android:textColor="#000000"
+            app:layout_heightPercent="60%"
+            app:layout_marginLeftPercent="5%"
+            app:layout_textSizePercent="35%"></TextView>
+
+        <com.zhy.android.percent.support.PercentLinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="right"
+            app:layout_heightPercent="100%">
+
+            <ImageView
+                android:id="@+id/iv_dialog_jujue"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/close_button2x"
+                app:layout_heightPercent="60%"
+                app:layout_marginRightPercent="5%"
+                app:layout_widthPercent="10%" />
+
+        </com.zhy.android.percent.support.PercentLinearLayout>
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+    <com.zhy.android.percent.support.PercentLinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_heightPercent="60%"
+        app:layout_widthPercent="100%">
+
+        <ImageView
+            android:id="@+id/iv_dialog"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/userpic"
+            app:layout_heightPercent="30%"
+            app:layout_widthPercent="60%" />
+
+        <TextView
+            android:id="@+id/tv_dialog_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="访客邀请"
+            android:textColor="#000000"
+            app:layout_heightPercent="10%"
+            app:layout_textSizePercent="5%"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="在智慧小区上邀请您"
+            app:layout_heightPercent="8%"
+            app:layout_textSizePercent="3.5%"></TextView>
+
+        <TextView
+            android:id="@+id/tv_dialog"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="加入上海石川春晓礼泉路444弄1号111，"
+
+            app:layout_heightPercent="8%"
+            app:layout_textSizePercent="3.5%"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="是否接受邀请？"
+            app:layout_heightPercent="8%"
+            app:layout_textSizePercent="3.5%"></TextView>
+
+        <ImageView
+            android:id="@+id/iv_dialog_jieshou"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@drawable/btn_accpet3x"
+            app:layout_heightPercent="30%"
+            app:layout_widthPercent="15%" />
+
+    </com.zhy.android.percent.support.PercentLinearLayout>
+
+</com.zhy.android.percent.support.PercentLinearLayout>

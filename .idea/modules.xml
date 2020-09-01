@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IMKit/IMKit.iml" filepath="$PROJECT_DIR$/IMKit/IMKit.iml" group="YunYue_Wlky/IMKit" />
+      <module fileurl="file://$PROJECT_DIR$/IMLib/IMLib.iml" filepath="$PROJECT_DIR$/IMLib/IMLib.iml" group="YunYue_Wlky/IMLib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/YunYue_Wlky.iml" filepath="$PROJECT_DIR$/.idea/modules/YunYue_Wlky.iml" group="YunYue_Wlky" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="YunYue_Wlky/app" />
+      <module fileurl="file://$PROJECT_DIR$/downloadInstaller/downloadInstaller.iml" filepath="$PROJECT_DIR$/downloadInstaller/downloadInstaller.iml" group="YunYue_Wlky/downloadInstaller" />
+      <module fileurl="file://$PROJECT_DIR$/flowviews/flowviews.iml" filepath="$PROJECT_DIR$/flowviews/flowviews.iml" group="YunYue_Wlky/flowviews" />
+      <module fileurl="file://$PROJECT_DIR$/lib_tcsuperplayer/lib_tcsuperplayer.iml" filepath="$PROJECT_DIR$/lib_tcsuperplayer/lib_tcsuperplayer.iml" group="YunYue_Wlky/lib_tcsuperplayer" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" group="YunYue_Wlky/library" />
+      <module fileurl="file://$PROJECT_DIR$/pickerview/pickerview.iml" filepath="$PROJECT_DIR$/pickerview/pickerview.iml" group="YunYue_Wlky/pickerview" />
+      <module fileurl="file://$PROJECT_DIR$/rvbanner/rvbanner.iml" filepath="$PROJECT_DIR$/rvbanner/rvbanner.iml" group="YunYue_Wlky/rvbanner" />
+      <module fileurl="file://$PROJECT_DIR$/swipemenulib/swipemenulib.iml" filepath="$PROJECT_DIR$/swipemenulib/swipemenulib.iml" group="YunYue_Wlky/swipemenulib" />
+      <module fileurl="file://$PROJECT_DIR$/wheelsruflibrary/wheelsruflibrary.iml" filepath="$PROJECT_DIR$/wheelsruflibrary/wheelsruflibrary.iml" group="YunYue_Wlky/wheelsruflibrary" />
+      <module fileurl="file://$PROJECT_DIR$/wheelview/wheelview.iml" filepath="$PROJECT_DIR$/wheelview/wheelview.iml" group="YunYue_Wlky/wheelview" />
+      <module fileurl="file://$PROJECT_DIR$/zxinglibrary/zxinglibrary.iml" filepath="$PROJECT_DIR$/zxinglibrary/zxinglibrary.iml" group="YunYue_Wlky/zxinglibrary" />
+    </modules>
+  </component>
+</project>

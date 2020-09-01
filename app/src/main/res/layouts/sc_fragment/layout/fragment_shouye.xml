@@ -1,0 +1,525 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:loonggg="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <com.loonggg.rvbanner.lib.RecyclerViewBanner
+                android:id="@+id/rv_banner_1"
+                android:layout_width="match_parent"
+                android:layout_height="181dp"
+                android:layout_marginTop="51dp"
+                loonggg:rvb_indicatorSelectedSrc="@drawable/svg_ic_selected"
+                loonggg:rvb_indicatorUnselectedSrc="@drawable/svg_ic_unselected" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.example.administrator.yunyue.sc_gridview.MyGridView
+                    android:id="@+id/gv_shangcheng"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white_c"
+                    android:numColumns="5"></com.example.administrator.yunyue.sc_gridview.MyGridView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"></TextView>
+
+            </LinearLayout>
+
+            <com.loonggg.rvbanner.lib.RecyclerViewBanner
+                android:id="@+id/rv_banner_2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:visibility="gone"
+                app:layout_heightPercent="20%"
+                app:layout_widthPercent="100%"
+                loonggg:rvb_indicatorSelectedSrc="@drawable/svg_ic_selected"
+                loonggg:rvb_indicatorUnselectedSrc="@drawable/svg_ic_unselected" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1E1E1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="188dp"
+                android:background="#cbcbc6"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:id="@+id/ll_shangchang_favourite"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white_c"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        app:layout_widthPercent="100%">
+
+                        <TextView
+                            android:id="@+id/iv_shangcheng_favourite_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="16dp" />
+                        <!--      app:layout_textSizePercent="15%"-->
+
+                        <TextView
+                            android:id="@+id/iv_shangcheng_favourite_remark"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:singleLine="true"
+                            android:text=""
+                            android:visibility="gone"
+                            app:layout_marginLeftPercent="6%"
+                            app:layout_textSizePercent="6%"
+                            app:layout_widthPercent="94%" />
+
+                        <TextView
+                            android:id="@+id/iv_shangcheng_favourite_price"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="7dp"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/theme"
+                            android:textSize="12dp" />
+                        <!--    app:layout_textSizePercent="12%"-->
+
+                    </LinearLayout>
+
+                    <ImageView
+                        android:id="@+id/iv_shangcheng_favourite_img"
+                        android:layout_width="match_parent"
+                        android:layout_height="119dp"
+                        android:scaleType="centerCrop" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#E1E1E1" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/ll_shangchang_favourite1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/white_c"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/iv_shangcheng_favourite_name1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="9dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/iv_shangcheng_favourite_remark1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="4dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/iv_shangcheng_favourite_price1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="15dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/theme"
+                                android:textSize="15sp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/iv_shangcheng_favourite_img1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#E1E1E1" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_shangchang_favourite2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@color/white_c"
+                        android:gravity="center_vertical">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/iv_shangcheng_favourite_name2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="9dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/iv_shangcheng_favourite_remark2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="4dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/iv_shangcheng_favourite_price2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="15dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/theme"
+                                android:textSize="15sp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/iv_shangcheng_favourite_img2"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1E1E1" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="94dp"
+                android:background="#cbcbc6"
+                app:layout_widthPercent="100%">
+
+                <LinearLayout
+                    android:id="@+id/ll_shangchang_favourite3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white_c"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        app:layout_heightPercent="100%"
+                        app:layout_widthPercent="100%">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/iv_shangcheng_favourite_name3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="9dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+                                android:id="@+id/iv_shangcheng_favourite_remark3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="4dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/iv_shangcheng_favourite_price3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="15dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/theme"
+                                android:textSize="15sp" />
+
+                        </LinearLayout>
+
+                        <ImageView
+                            android:id="@+id/iv_shangcheng_favourite_img3"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#E1E1E1" />
+
+                <LinearLayout
+                    android:id="@+id/ll_shangchang_favourite4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/white_c"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/iv_shangcheng_favourite_name4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="9dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="15sp" />
+
+                            <TextView
+
+                                android:id="@+id/iv_shangcheng_favourite_remark4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="4dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textSize="11sp" />
+
+                            <TextView
+                                android:id="@+id/iv_shangcheng_favourite_price4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="9dp"
+                                android:layout_marginTop="15dp"
+                                android:singleLine="true"
+                                android:text=""
+                                android:textColor="@color/theme"
+                                android:textSize="15sp" />
+                        </LinearLayout>
+
+
+                        <ImageView
+                            android:id="@+id/iv_shangcheng_favourite_img4"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:scaleType="centerCrop" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#E1E1E1" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <com.loonggg.rvbanner.lib.RecyclerViewBanner
+                android:id="@+id/rv_banner_3"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                loonggg:rvb_indicatorSelectedSrc="@drawable/svg_ic_selected"
+                loonggg:rvb_indicatorUnselectedSrc="@drawable/svg_ic_unselected" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <com.example.administrator.yunyue.sc_gridview.MyGridView
+                    android:id="@+id/gv_shangcheng_hot"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="20dp"
+                    android:numColumns="2"></com.example.administrator.yunyue.sc_gridview.MyGridView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_shangcheng_query"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+
+            android:layout_weight="1"
+            android:background="@drawable/bg_query"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:text="@string/sssp"
+                android:textSize="14sp" />
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/search2x" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_shouye_saomiao"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="18dp"
+                android:layout_marginTop="2dp"
+                android:src="@drawable/saoma_3x" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="扫一扫"
+                android:textColor="@color/theme"
+                android:textSize="11sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

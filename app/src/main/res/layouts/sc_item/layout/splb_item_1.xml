@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_c"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/ll_splb_item_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <ImageView
+            android:id="@+id/iv_splb_1"
+            android:layout_width="126dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="15dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="126dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_splb_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:ellipsize="end"
+                android:gravity="center_vertical"
+                android:lineSpacingExtra="1.16dp"
+                android:lineSpacingMultiplier="1.16"
+                android:lines="2"
+                android:text="临时停车号码牌挪车电话牌装饰用 品创意汽车"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="36dp"
+                android:gravity="bottom">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="￥"
+                    android:textColor="#E51C23"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/tv_splb_q_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="244"
+                    android:textColor="#FC2449"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_splb_xl_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="9dp"
+                    android:gravity="center_vertical"
+                    android:text="销量123"
+                    android:textColor="#999999"
+                    android:textSize="10sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/tv_splb_itenm_1_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="布格朗旗舰店"
+                    android:textColor="#999999"
+                    android:textSize="10sp" />
+
+                <ImageView
+                    android:layout_width="4dp"
+                    android:layout_height="6dp"
+                    android:layout_marginLeft="5dp"
+                    android:src="@drawable/arrow_next" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_splb_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

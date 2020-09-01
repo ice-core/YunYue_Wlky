@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--    android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"-->
+    <LinearLayout
+        android:id="@+id/ll_sjcz_item"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/bk_8_9b9b9b"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_sjcz_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10元"
+            android:textColor="@color/theme"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/tv_sjcz_describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:text="售价:10.00元"
+            android:textColor="@color/theme"
+            android:textSize="11sp" />
+
+    </LinearLayout>
+
+    <!--    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="9dp" />-->
+
+</LinearLayout>
